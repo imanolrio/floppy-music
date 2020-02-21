@@ -1,5 +1,4 @@
 # floppy-music
-Star wars model with two old floppy drives to make music. LED strip added for more fun.
 
 [Readme file in working progress]
 
