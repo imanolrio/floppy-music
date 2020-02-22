@@ -18,10 +18,7 @@ The parts I used are the following:
 
 The code of this project uses the following libraries:
 
-- [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library)
-- A deeply customized version of [Moppy project](https://github.com/SammyIAm/Moppy2)
-- [Timer One](https://playground.arduino.cc/Code/Timer1/) for Arduino 
-
-The first one allows to control LED strips which are based on the WS2801 controller, either by using a GPIO-pin-based software SPI implementation or by using the native hardware SPI module if available. In this project, Arduino Nano is used, which is hardware SPI capable, so this last option will be used.
-
+- A deeply customized version of [Moppy project](https://github.com/SammyIAm/Moppy2) to control the floppy drives.
+- [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library) to control the LED strip.
+- [Timer One](https://playground.arduino.cc/Code/Timer1/) for Arduino, for interruptions managing.
 
