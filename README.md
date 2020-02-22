@@ -20,5 +20,5 @@ The code of this project uses the following libraries:
 
 - A deeply customized version of [Moppy project](https://github.com/SammyIAm/Moppy2) to control the floppy drives.
 - [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library) to control the LED strip.
-- [Timer One](https://playground.arduino.cc/Code/Timer1/) for Arduino, for interruptions managing.
+- [Timer One](https://playground.arduino.cc/Code/Timer1/), to generate interruptions.
 
