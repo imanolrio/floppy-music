@@ -16,7 +16,9 @@ The parts I used are the following:
 - A black methacrylate board. You can find it in most DIY stores.
 - A Darth Vader funko figure, just for decoration.
 
-To compile the code, you need to have the [Timer One](https://playground.arduino.cc/Code/Timer1/) library installed, which is used to generate interruptions.
+To compile the code, you need to have the [Arduino IDE](https://www.arduino.cc/en/main/software) installed, as well as the [Timer One](https://playground.arduino.cc/Code/Timer1/) library, which is used to generate interruptions.
+
+If you are using another variant of Arduino instead of Nano, make sure it supports hardware SPI. If not, you will need to change the code to call the software SPI implementing functions of WS2801 library, which should not be a big deal anyway.
 
 
 
