@@ -2,7 +2,7 @@
 
 [Readme file in working progress]
 
-This is an Star-Wars-inspired model created to make music by using two old floppy drives. A LED strip has also been added.
+This is an Star-Wars-inspired model created to make music by using two old floppy drives. A LED strip has also been added. To control the floppy drives, I deeply customized and integrated the [Moppy project](https://github.com/SammyIAm/Moppy2), and I used the [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library) library to control the LED strip.
 
 ![Model image](/image/01_floppy_music_model.jpg)
 
@@ -16,9 +16,8 @@ The parts I used are the following:
 - A black methacrylate board. You can find it in most DIY stores.
 - A Darth Vader funko figure, just for decoration.
 
-The code of this project uses the following libraries:
+To compile the code, you need to have the [Timer One](https://playground.arduino.cc/Code/Timer1/) library installed, which is used to generate interruptions.
 
-- A deeply customized version of [Moppy project](https://github.com/SammyIAm/Moppy2) to control the floppy drives.
-- [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library) to control the LED strip.
-- [Timer One](https://playground.arduino.cc/Code/Timer1/), to generate interruptions.
+
+
 
