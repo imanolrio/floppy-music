@@ -14,11 +14,12 @@ The parts I used are the following:
 - Arduino Nano. Kind of old, but it is powerful enough for this purpose. You can use any other Arduino variant with minimal changes in the code. I bought it on [eBay](https://www.ebay.com/).
 - A 5V power supply with enough output current. I bought a 5A one to be sure, on [Amazon](https://www.amazon.es/gp/product/B013QWW4DO/).
 - A black methacrylate board. You can find it in most DIY stores.
+- Wire, soldering iron, solder wire, glue...
 - A Darth Vader funko figure, just for decoration.
 
 To compile the code, you need to have the [Arduino IDE](https://www.arduino.cc/en/main/software) installed, as well as the [Timer One](https://playground.arduino.cc/Code/Timer1/) library, which is used to generate interruptions.
 
-If you are using another variant of Arduino instead of Nano, make sure it supports hardware SPI. If not, you will need to change the code to call the software SPI implementing functions of WS2801 library, which should not be a big deal anyway.
+If you are using another variant of Arduino instead of Nano, make sure it supports hardware SPI. If not, you can always change the code to call the software SPI-over-GPIO implementing functions of WS2801 library.
 
 
 
