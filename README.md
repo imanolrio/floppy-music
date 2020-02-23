@@ -2,7 +2,7 @@
 
 [Readme file in working progress]
 
-This is an Star-Wars-inspired model created to make music by using two old floppy drives. A LED strip has also been added. To control the floppy drives, I deeply customized and integrated the [Moppy project](https://github.com/SammyIAm/Moppy2), and I used the [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library) library to control the LED strip.
+This is an Star-Wars-inspired model created to make music by using two old floppy drives, and a LED strip has also been added. To control the floppy drives, I deeply customized and integrated the [Moppy project](https://github.com/SammyIAm/Moppy2), and I used the [Adafruit 2801](https://github.com/adafruit/Adafruit-WS2801-Library) library to control the LED strip. You can see a video of the final result [here](https://youtu.be/pWgEK_t-BJY)
 
 ![Model image](/image/01_floppy_music_model.jpg)
 
